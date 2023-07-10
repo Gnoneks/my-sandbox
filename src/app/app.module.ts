@@ -19,22 +19,10 @@ import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HeaderComponent } from './components/header/header.component';
-import { HomeScreenComponent } from './screens/home-screen/home-screen.component';
-import { AboutMeScreenComponent } from './screens/about-me-screen/about-me-screen.component';
-import { AppsScreenComponent } from './screens/apps-screen/apps-screen.component';
-import { CustomComponentsScreenComponent } from './screens/custom-components-screen/custom-components-screen.component';
-import { InvalidLinkScreenComponent } from './screens/invalid-link-screen/invalid-link-screen.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderComponent,
-    HomeScreenComponent,
-    AboutMeScreenComponent,
-    AppsScreenComponent,
-    CustomComponentsScreenComponent,
-    InvalidLinkScreenComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
